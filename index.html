@@ -1,8 +1,46 @@
 <html>
 <head>
 	<title>Hello Coursera</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=devic-width, initial-scale=1">
+	<style>
+		*{
+			box-sizing: border-box;
+			box-sizing: content-box; //css3
+
+		}
+		body{
+			font-size: 120%;
+
+		}
+
+		div{
+			margin-top: 50px;
+			width: 200px;
+			height: 50px;
+			overflow: auto;
+			background-color: blue;
+			background-image: url("xx.png");
+			background-repeat: no-repeat;
+			background-position: top right;
+			background: url("xx.png") no-repeat top center blue;
+		}
+		h1{
+			margin-bottom: 30px;
+		}
+
+	</style>
 </head>
 <body>
-	<h1>Hello Coursera By Sabreen Qwaider</h1>
+	<!--h1>&quot; Hello Coursera &lt; &copy;By&nbsp;Sabreen&nbsp;Qwaider &gt;  :) &quot; </h1-->
+
+	<h1>Box Model</h1>
+  <div>Regular Text</div>
+  <div style="font-size: 2em;">2em Text
+  	<div style="font-size: 2em;">4em Text
+  		<div style="font-size: .5em;">2em again</div>
+  	</div>
+  </div>
+</div>
 </body>
 </html>
